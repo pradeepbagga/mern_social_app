@@ -1,0 +1,194 @@
+a {
+  text-decoration: none;
+}
+a:hover {
+  text-decoration: underline;
+}
+
+.navbar {
+  margin-bottom: 1em;
+  padding:0.5em 1em;
+}
+
+.alert {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  max-width: 50%;
+  margin-left: auto;
+  margin-right: auto;
+  z-index: 99;
+}
+
+.btn-google-login {
+  /* background-color: #fff; */
+  /* border-color: #616161; */
+  border-radius: 0;
+  /* color: #616161; */
+  padding: 0;
+  line-height: normal;
+}
+.btn-google-login .fab {
+  display: inline-block;
+  padding: .375rem .75rem .375rem .75rem;
+  background-color: #fff;
+  line-height: 1.5em;
+  color:#0277BD;
+  border:0;
+  margin:0;
+}
+.btn-google-login span {
+  display: inline-block;
+  padding: .375rem .75rem .375rem .75rem;
+  line-height: 1.5em;
+  border:0;
+  margin:0;
+}
+
+.btn-google-login.btn-facebook {
+  background-color: #216fdb;
+  border:1px #216fdb solid;
+  padding: .375rem .75rem .375rem .75rem;
+  line-height: 1.5em;
+  outline: none !important;
+}
+.btn-google-login.btn-facebook .fa.fa-facebook {
+  display: inline-block;
+  padding: 0 .75rem ;
+}
+
+.home-posts-list .card { 
+  margin:1em 0;
+}
+
+.home-posts-list .likes-icons span {
+  display: inline-block;
+  background-color: #42a5f5;
+  border-radius: 100%;
+  padding: 0em 0.5em 0.2em 0.5em;
+}
+.home-posts-list .likes-icons span i {
+  font-size: 0.7em;
+  color:#fff;
+}
+.home-posts-list .card-title {
+  font-size: 1.5rem;
+  position: relative;
+  padding-right: 2em;
+}
+.home-posts-list .card-title a {
+  color: inherit;
+}
+.home-posts-list .card-title i {
+  position: absolute;
+  top:5px;
+  right:0;
+  cursor: pointer;
+  font-size: 0.7em;
+  font-weight: 400;
+}
+.home-posts-list img { 
+  margin:0.5em 0;
+}
+.home-posts-list .post-comment-box {
+  background-color: lightgray;
+  padding: 0.5rem;
+  border-radius: 10px;
+  vertical-align: top;
+  display: none;
+}
+.home-posts-list .post-comment-box .btn {
+  width:60px;
+  vertical-align: top;
+  margin-left:10px;
+}
+.home-posts-list .post-comment-box textarea.form-control {
+  width: calc(100% - 80px);
+    display: inline-block;
+    vertical-align: top;
+}
+.home-posts-list .like-comment-row {
+  border-top:1px solid rgba(0,0,0,.125);
+  border-bottom:1px solid rgba(0,0,0,.125);
+  padding:0.4em 0;
+  margin:0.8em 0;
+  font-weight: 600;
+}
+.home-posts-list .like-comment-row span {
+  cursor: pointer;
+  opacity: 0.7;
+}
+.home-posts-list .post-comment-list {
+  display: none;
+  padding-top: 0.5rem;
+  text-transform: capitalize;
+}
+.home-posts-list .post-comment-list a {
+  font-weight: 500;
+  color: inherit;
+}
+.home-posts-list .post-comment-list a:hover {
+  text-decoration: underline;
+}
+.home-posts-list h6 a {
+  text-transform: capitalize;
+}
+
+.post-detail img {
+  max-width: 100%;
+  height: auto;
+}
+.post-detail h6 {
+  text-transform: capitalize;
+}
+
+.text-right {
+  text-align: right;
+}
+.cursor-pointer {
+  cursor: pointer;
+}
+
+.user-profile h2 {
+  text-transform: capitalize;
+}
+
+.user-profile .userphoto img {
+  max-width: 180px;  
+  height: auto;
+  margin:1em 0;
+  border-radius: 100%;
+  border:1px grey solid;
+}
+.user-profile .image-upload-btns {
+  position: relative;
+}
+.user-profile .image-upload-btns input[type="file"]{
+  opacity: 0;
+  position: absolute;
+  z-index: 10;
+  max-width: 100px;
+    margin: 0 auto;
+    left: 0;
+    right: 0;
+}
+
+.user-profile-posts-list {
+  margin-bottom: 1em;
+}
+.user-profile-posts-list h5 {
+  position: relative;
+  padding-right: 2em;
+}
+.user-profile-posts-list h5 i {
+  position: absolute;
+  right:0;
+  top:5px;
+  font-size: 0.7em;
+  font-weight: 400;
+  cursor: pointer;
+}
+.user-profile-posts-list h5 a {
+  color:inherit;
+}
